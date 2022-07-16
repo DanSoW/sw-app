@@ -1,0 +1,16 @@
+:root{
+    --color-dark-gray: #10100e;
+    --color-white: #fff;
+    --color-black: #000;
+
+    --spacing-medium: 20px;
+    --border-radius-small: 3px;
+    --font-family-main: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark-gray);
+    font-family: var(--font-family-main);
+}
