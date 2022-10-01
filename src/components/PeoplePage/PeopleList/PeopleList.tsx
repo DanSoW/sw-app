@@ -1,11 +1,12 @@
 import { FC } from "react";
-import { People } from "../../../models/people.model";
+import { People } from "@models/people.model";
 import styles from "./PeopleList.module.css";
 
 interface PeopleProp {
   people: People[] | null;
 }
 
+/* Компонент списка пользователей */
 const PeopleList: FC<PeopleProp> = ({ people }) => {
   return (
     <>

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@hoc-helpers/*": ["./hoc-helpers/*"],
+            "@components/*": ["./components/*"],
+            "@constants/*": ["./constants/*"],
+            "@models/*": ["./models/*"],
+            "@containers/*": ["./containers/*"],
+            "@services/*": ["./services/*"],
+            "@styles/*": ["./styles/*"],
+            "@utils/*": ["./utils/*"],
+            "@routes/*": ["./routes/*"]
+        }
+    }
+}

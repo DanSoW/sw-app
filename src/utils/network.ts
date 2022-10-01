@@ -1,4 +1,4 @@
-import ApiConstants from "../constants/api";
+import ApiConstants from "@constants/api";
 
 export const getApiResource = async (url: string) => {
   try {

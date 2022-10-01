@@ -1,11 +1,16 @@
 :root{
+    /* Colors */
     --color-dark-gray: #10100e;
     --color-white: #fff;
     --color-black: #000;
+    --color-yellow: #ffff00;
 
     --spacing-medium: 20px;
     --border-radius-small: 3px;
+
+    /* Fonts */
     --font-family-main: sans-serif;
+    --font-size-header: 26px;
 }
 
 body {
@@ -13,4 +18,8 @@ body {
     padding: 0;
     background-color: var(--color-dark-gray);
     font-family: var(--font-family-main);
+}
+
+h2 {
+    color: var(--color-white);
 }

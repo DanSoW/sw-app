@@ -1,4 +1,4 @@
-import ApiConstants, { URL_IMG_PERSON } from "../constants/api";
+import ApiConstants, { URL_IMG_PERSON } from "@constants/api";
 
 const getId = (url: string, category: string) => {
     const id = url.replace(ApiConstants.SWAPI_ROOT + ApiConstants.SWAPI_PEOPLE, '');
